@@ -1,9 +1,11 @@
-import { defineConfig } from 'vite'
+Copyimport { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  root: '.',  // This should point to where your index.html is
+  server: {
+    port: 3000
+  },
   build: {
     outDir: 'dist'
   }
