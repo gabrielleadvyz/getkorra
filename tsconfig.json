@@ -18,3 +18,10 @@
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+{
+  "compilerOptions": {
+    // ... other options
+    "noUnusedLocals": false,  // Add this line
+    // ... rest of the options
+  }
+}
