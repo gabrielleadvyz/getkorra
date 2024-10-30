@@ -1,6 +1,6 @@
-import React from 'react'
+import { type FC } from 'react'  // Using type import instead
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
       <h1>Welcome to Korra</h1>
